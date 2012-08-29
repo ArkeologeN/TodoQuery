@@ -1,0 +1,35 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="jquery-1.8.0.min.js"></script> <!-- jQuery Included -->
+        <script type="text/javascript" src="json2.js"></script> <!-- JSON Library -->
+        <script type="text/javascript" src="implements.js"></script> <!-- Code Implementation -->
+        <style type="text/css">
+            #main {width: 500px; height: auto; margin: 5px auto; background-color: beige; }
+            ul {padding: 0px;list-style-type: none;}
+            li {margin-left: 5px; list-style-type: none;background: antiquewhite; padding: 3px; border: 1px solid #000;}
+            #form-container { padding: 5px;}
+            .content {width: 400px; display: inline-block;}
+            .cross { display: inline-block; float: right;}
+            .txt { width: 400px; height: 30px; font-family: Verdana;}
+            .addBtn {width: 70px; height: 40px;}
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="form-container">
+                <input type="text" id="todotitle" class="txt" />
+                <input type="submit" id="add-todo" value="Add" class="addBtn" />
+            </div>
+            <ul id="todo-listing">
+                
+            </ul>
+        </div>
+    </body>
+</html>
